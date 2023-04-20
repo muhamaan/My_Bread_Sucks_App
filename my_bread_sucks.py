@@ -19,7 +19,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 # model = load_model('.\model.h5')#学習済みモデルをロード
-model = load_model(".\model.h5")
+model = load_model("./model.h5")
 # model = load_model(r'env\programs\My_Bread_Sucks_App\model.h5')
 
 
